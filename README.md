@@ -8,7 +8,7 @@ Implements a DHT (Distributed Hash Table) in Java. Each node can store data, dis
 - Open the terminal, go to the “kvp2psafe” directory, and run the application using the command “mvn javafx:run” with Maven installed.
 - When you have finished running the script, you can delete the keystores and trust stores generated using the “clean.bat” script.
 
-## Estrutura
+## Structure
 - **GUI**: Graphic Interface using JavaFx
 - **DataStore**: PUT and GET operations
 - **P2PClient e P2PServer**: Classes that represent the peer, which is both client and server, and communicates with others securely using PUT and GET commands.
